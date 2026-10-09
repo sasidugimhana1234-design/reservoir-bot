@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ceylone Weather</title>
+    <link rel="stylesheet" href="Weather.css">
+</head>
+<body>
+
+<img src="WhatsApp Image 2026-10-07 at 04.54.11.jpg" class="bgimg">
+
+<div class="nav">
+    <nav>
+        <ul>
+           <li><a href="#">Home</a></li>
+           <li><a href="#">Weather Map</a></li>
+           <li><a href="#">Reservoirs</a></li>
+           <li><a href="#">About Us</a></li>
+           <li><a href="#">Login</a></li>
+        </ul>
+    </nav>
+</div>
+
+<div>
+    <select class="Language">
+        <option disabled selected hidden>Language</option>
+        <option>Sinhala</option> 
+        <option>Tamil</option> 
+        <option>English</option> 
+    </select>
+</div>
+
+<h1 class="heeding">Ceylon Weather</h1>
+<p class="note">Sri Lanka enjoys a tropical climate influenced by two major monsoons, the Southwest from May to September and the Northeast from December to February. This creates distinct wet and dry zones, while the central highlands remain cool and misty compared to hot, humid coastal lowlands. Because rainfall is seasonal and uneven, ancient Sri Lankan civilization developed a remarkable reservoir system known as the wewa chain. Built by kings like Parakramabahu, thousands of interconnected tanks and canals capture monsoon rain, store it, and distribute it during droughts, sustaining paddy farming, drinking water, biodiversity, and still forming the backbone of rural life</p>
+
+<button class="button" onclick="Explore()">Explore...</button>
+
+
+<form id="registrationForm" class="form">
+    <h2>Registration Form</h2>
+
+    <input id="UserName" class="input" type="text" placeholder="Enter Your Name">
+    <input id="UserNumber" class="input" type="number" placeholder="Enter Your Number">
+
+    <select id="UserReservoir" class="select">
+       <option disabled selected hidden>Reservoirs</option>
+       <option>Victoria Reservoirs</option>
+       <option>Randenigala Reservoirs</option>
+       <option>Rantembe Reservoirs</option>
+       <option>Kothmale Reservoirs</option>
+       <option>Maduru Oya Reservoirs</option>
+       <option>Samanalawawa Reservoirs</option>
+       <option>Castlereigh Reservoirs</option>
+       <option>Moussakelle Reservoirs</option>
+       <option>Canyon Reservoirs</option>
+       <option>Norton Bridge Reservoirs</option>
+       <option>Kukule Banga Reservoirs</option> 
+       <option>Bowatena Reservoirs</option>
+       <option>Polgolla Reservoirs</option>
+       <option>Laxapana Reservoirs</option>
+       <option>Daduru Oya Reservoirs</option>
+       <option>Rajanganaya Reservoirs</option>
+       <option>Lunugamvehera Reservoirs</option>
+       <option>Udawalawe Reservoirs</option>
+       <option>Iginimitiya Reservoirs</option>
+       <option>Yan Oya Reservoirs</option>
+       <option>Rambakkan Oya Reservoirs</option>
+       <option>Muruthewela Reservoirs</option> 
+       <option>Weheragala Reservoirs</option>
+       <option>Hakwatuna Oya Reservoirs</option>
+       <option>Ragadeepa Reservoirs</option>
+       <option>Morana Reservoirs</option>
+       <option>Kalugaloya Reservoirs</option> 
+       <option>Navakiri Aru Reservoirs</option>
+       <option>Nuhulpola Reservoirs</option>
+       <option>Dyraaba Reservoirs</option>
+       <option>Kalu Ganga Reservoirs</option>
+       <option>Moragahakanda Reservoirs</option> 
+       <option>Thalpitigala Reservoirs</option>
+       <option>Basnagoda Reservoirs</option> 
+    </select>
+
+    <select id="UserLanguage" class="select">
+        <option disabled selected hidden>Language</option>
+        <option>Sinhala</option> 
+        <option>Tamil</option> 
+        <option>English</option> 
+    </select><br>
+
+    <button type="submit" class="select">Submit</button>
+</form>
+
+<script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-firestore.js"></script>
+<script src="Weather.js"></script>
+
+    
+</body>
+</html>
